@@ -1,4 +1,4 @@
-FROM java:jdk-8u111-jre-alpine
+FROM java:openjdk-8u111-jre-alpine
 MAINTAINER DiamondYuan <541832074@qq.com>
 
 ENV KM_VERSION=1.3.3.13 \
