@@ -4,7 +4,7 @@ MAINTAINER DiamondYuan <541832074@qq.com>
 ENV KM_VERSION=1.3.3.13 \
     KM_CONFIGFILE="conf/application.conf"
 
-RUN apk add --no-cache git wget && \
+RUN apk add --no-cache git wget bash && \
     mkdir -p /tmp && \
     cd /tmp && \
     git clone https://github.com/yahoo/kafka-manager && \
